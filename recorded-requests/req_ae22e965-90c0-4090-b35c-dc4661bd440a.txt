@@ -1,0 +1,11 @@
+GET http://grp3automobo.ddns.net:8090/shop/shop/reference/countryName?countryCode=CA HTTP/1.1
+Host: grp3automobo.ddns.net:8090
+Proxy-Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Referer: http://grp3automobo.ddns.net:8090/shop/shop/category/tables.html/ref=c:1
+Accept-Encoding: gzip, deflate
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=E2BDE9D4553C987B22F9EC4DA73F64C5
+

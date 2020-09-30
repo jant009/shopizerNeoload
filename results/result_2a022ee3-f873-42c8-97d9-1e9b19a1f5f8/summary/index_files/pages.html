@@ -1,0 +1,415 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Rapport de test de performance</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="http_pages_template">
+<div id="leftnavigation">
+<div class="divHeader">Rapport de Test NeoLoad</div>
+<div class="menu_wrapper">
+<div class="item">
+<a href="./summary.html">Synth&egrave;se</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.resultssummary">Synth&egrave;se des R&eacute;sultats</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.statisticssummary">Synth&egrave;se des Statistiques</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.hotspots">Points chauds</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.errors">Erreurs</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.alerts">Alertes</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.all">Statistiques g&eacute;n&eacute;rales</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.transactions">Statistiques des transactions</a>
+</div>
+<div class="item">
+<a href="./settings.html">Contexte d'ex&eacute;cution</a>
+</div>
+<div class="item">
+<a href="./servers.html">Serveurs</a>
+</div>
+<div class="item">
+<a href="./populations.html">Populations</a>
+</div>
+<div class="item">
+<a href="./virtual-users.html">Parcours Utilisateur</a>
+</div>
+<div class="item">
+<a href="./transactions.html">Transactions</a>
+</div>
+<div class="item">
+<a href="./pages.html">Pages</a>
+</div>
+<div class="item">
+<a href="./medias.html">Contenus M&eacute;dias</a>
+</div>
+<div class="item">
+<a href="./pushmessages.html">Messages push</a>
+</div>
+<div class="item">
+<a href="./monitors.html">Moniteurs</a>
+</div>
+<div class="item">
+<a href="./scenario_ShopizerScenario.html">Sc&eacute;nario</a>
+</div>
+<div class="title">Graphes principaux</div>
+<div class="item">
+<a href="./Graphes principaux_pages.average.html">Temps de r&eacute;ponse moyen (pages)</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_requests.average.html">Temps de r&eacute;ponse moyen (requ&ecirc;tes)</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_transactions.average.html">Temps de r&eacute;ponse moyen (Transactions)</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_hits.html">Requ&ecirc;tes par seconde</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_errors.html">Erreurs</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_throughput.html">D&eacute;bit</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_pages.average.vu.html">Temps de r&eacute;ponse moyen en fonction de la charge</a>
+</div>
+<div class="item">
+<a href="./Graphes principaux_percentile.html">Distribution de la dur&eacute;e des Transactions</a>
+</div>
+</div>
+<div style="float: right;">
+<img style="margin-top: 10px; margin-bottom: 0px; margin-right: 4px" src="./images/logo_neotys.png"></div>
+</div>
+<div id="content">
+<div class="divHeader">Pages</div>
+<div style="width: 100%; height: 20px;" id="report.shared">
+<div style="float:left" class="h1" id="statistics_summary_title">Conteneurs partag&eacute;s</div>
+</div>
+<div class="wrapper shared" align="center">
+<div align="center">
+<table class="hierarchical_shared_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Moy</th><th width="10%">Max</th><th width="10%">Nb</th><th width="10%">Err</th><th width="10%">Err %</th><th width="10%">Profil SLA</th>
+</tr>
+<tr>
+<td colspan="7" class="line2">Liste vide</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="user-tableheader" style="width: 100%; height: 20px;" id="Ajout panier">
+<div style="float:left" class="h1" id="statistics_summary_title">Ajout panier</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="hierarchical_statistics_content_template">
+<tr>
+<th width="10%">Min</th><th width="10%">Moy</th><th width="10%">Max</th><th width="10%">Nb</th><th width="10%">Err</th><th width="10%">Err %</th><th width="10%">Profil SLA</th>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped virtualuser" style="margin-left: 00px">Ajout panier</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">36,8</td><td class="line2right bordered">307,2</td><td class="line2right bordered">540,6</td><td class="line2right bordered">48</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container-blue" style="margin-left: 10px">Actions</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">66,3</td><td class="line1right bordered">201,1</td><td class="line1right bordered">307,8</td><td class="line1right bordered">12</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">acc&egrave;s au site</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,454</td><td class="line2right bordered">13,4</td><td class="line2right bordered">65</td><td class="line2right bordered">58</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,445</td><td class="line1right bordered">13,3</td><td class="line1right bordered">65</td><td class="line1right bordered">58</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/resources/templates/generic/img/favicon.ico</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,007</td><td class="line2right bordered">0,011</td><td class="line2right bordered">0,03</td><td class="line2right bordered">58</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">visiting bedroom</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,612</td><td class="line1right bordered">38,6</td><td class="line1right bordered">118,1</td><td class="line1right bordered">50</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/category/bedroom.html/ref=c:50</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,205</td><td class="line2right bordered">12,1</td><td class="line2right bordered">41,7</td><td class="line2right bordered">55</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/category/night-tables.html/ref=c:50,50,100</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,186</td><td class="line1right bordered">14,4</td><td class="line1right bordered">61,6</td><td class="line1right bordered">53</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,221</td><td class="line2right bordered">14,6</td><td class="line2right bordered">55,6</td><td class="line2right bordered">50</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped container" style="margin-left: 20px">visiting table</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,398</td><td class="line1right bordered">22,2</td><td class="line1right bordered">79,9</td><td class="line1right bordered">48</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/category/tables.html/ref=c:1</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,204</td><td class="line2right bordered">12,6</td><td class="line2right bordered">48,3</td><td class="line2right bordered">49</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,193</td><td class="line1right bordered">10,37</td><td class="line1right bordered">66,7</td><td class="line1right bordered">48</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">selection article 1</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">2,84</td><td class="line2right bordered">49,1</td><td class="line2right bordered">134,2</td><td class="line2right bordered">38</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/product/thai-flat-cussion.html</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,129</td><td class="line1right bordered">9,42</td><td class="line1right bordered">37,4</td><td class="line1right bordered">45</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/cart/addShoppingCartItem</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">0,106</td><td class="line2right bordered">13,2</td><td class="line2right bordered">44,9</td><td class="line2right bordered">45</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">2,52</td><td class="line1right bordered">31</td><td class="line1right bordered">78</td><td class="line1right bordered">38</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">selection article 2</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">11,3</td><td class="line2right bordered">85,9</td><td class="line2right bordered">167</td><td class="line2right bordered">26</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/product/compact-night-table.html</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">2,28</td><td class="line1right bordered">30,9</td><td class="line1right bordered">87,4</td><td class="line1right bordered">33</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/cart/addShoppingCartItem</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">6,67</td><td class="line2right bordered">37,8</td><td class="line2right bordered">79,4</td><td class="line2right bordered">28</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">2,3</td><td class="line1right bordered">25,6</td><td class="line1right bordered">87,1</td><td class="line1right bordered">26</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">selection article 3</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">17,1</td><td class="line2right bordered">88,7</td><td class="line2right bordered">165,9</td><td class="line2right bordered">19</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/product/product-with-options.html</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">2,37</td><td class="line1right bordered">27,3</td><td class="line1right bordered">60</td><td class="line1right bordered">22</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/cart/addShoppingCartItem</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">10,08</td><td class="line2right bordered">37,4</td><td class="line2right bordered">63,1</td><td class="line2right bordered">20</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">4,61</td><td class="line1right bordered">28,6</td><td class="line1right bordered">75,4</td><td class="line1right bordered">19</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped container" style="margin-left: 20px">selection article 4</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">33,4</td><td class="line2right bordered">86,6</td><td class="line2right bordered">124,4</td><td class="line2right bordered">12</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/product/edge-console.html</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">5,62</td><td class="line1right bordered">26,7</td><td class="line1right bordered">51,9</td><td class="line1right bordered">16</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/edgedl/re...B803K4wzSzCg_2231/MFFi7woq6yTn1EUeYiz82Q</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">17,9</td><td class="line2right bordered">38</td><td class="line2right bordered">59,4</td><td class="line2right bordered">16</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line1">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/edgedl/re...03K4wzSzCg_2231/MFFi7woq6yTn1EUeYiz82Q_1</div>
+</td>
+</tr>
+<tr>
+<td class="line1right bordered">0,038</td><td class="line1right bordered">7,77</td><td class="line1right bordered">24,7</td><td class="line1right bordered">16</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">
+                                -
+                            </td>
+</tr>
+<tr>
+<td colspan="7" class="line2">
+<div class="tablelabel typped httppage" style="margin-left: 30px">/shop/shop/</div>
+</td>
+</tr>
+<tr>
+<td class="line2right bordered">9,73</td><td class="line2right bordered">21,6</td><td class="line2right bordered">49,5</td><td class="line2right bordered">12</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">
+                                -
+                            </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
